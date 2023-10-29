@@ -54,7 +54,7 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_turnleft">
             <value name="DEGREES">
                 <shadow type="math_number">
-                    <field name="NUM">15</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -121,7 +121,7 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_pointindirection">
             <value name="DIRECTION">
                 <shadow type="math_angle">
-                    <field name="NUM">666</field>
+                    <field name="NUM">999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999</field>
                 </shadow>
             </value>
         </block>
@@ -1046,7 +1046,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_gtorequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>⨞⨧⨗</field>
+                    <field name="TEXT">⨞⨧⨗</field>
                 </shadow>
             </value>
             <value name="OPERAND2">

@@ -70,12 +70,12 @@ const projectData = translateFunction => {
                     }
                 ],
                 sounds: [],
-                volume: 100,
+                volume: 666,
                 visible: true,
-                x: 0,
-                y: 0,
-                size: 100,
-                direction: 90,
+                x: 666,
+                y: 666,
+                size: 666,
+                direction: 666,
                 draggable: false,
                 rotationStyle: 'all around'
             }
