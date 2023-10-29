@@ -6,7 +6,7 @@
     flex-grow: 1;
     border: 1px solid $ui-black-transparent;
     background: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'TECHNOLOGICAL';
     font-size: 0.85rem;
 }
 [theme="dark"] .wrapper {

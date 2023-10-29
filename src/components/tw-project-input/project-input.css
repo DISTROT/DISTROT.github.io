@@ -22,7 +22,7 @@
     background-color: $extensions-primary !important;
     border: 1px solid hsla(0, 0%, 0%, .1) !important;
     box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: 'TECHNOLOGICAL' !important;
     border: 1px solid hsla(0, 0%, 0%, .1) !important;
     z-index: $z-index-menu-bar !important;
 }

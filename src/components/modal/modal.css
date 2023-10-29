@@ -27,7 +27,7 @@
     border-radius: $space;
     user-select: none;
 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'TECHNOLOGICAL';
     color: $text-primary-light;
     overflow: hidden;
 }
@@ -72,7 +72,7 @@ $sides: 20rem;
     width: 100%;
     background-color: $motion-primary;
     
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'TECHNOLOGICAL';
     font-size: 1rem;
     font-weight: normal;
 }
