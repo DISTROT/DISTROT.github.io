@@ -63,8 +63,8 @@ const Credits = () => (
         <section>
             <h2>Thank you</h2>
             <p>
-                Without TurboWarp, PenguinMod may have never existed.
-                Thank you to everyone who worked on Scratch and TurboWarp,
+                Without Penguinmod, DISTROT may have never existed.
+                Thank you to everyone who worked on Scratch, Turbowarp and Penguinmod,
                 you have made many people finally be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
@@ -74,10 +74,14 @@ const Credits = () => (
             <a href="https://github.com/sponsors/GarboMuffin">
                 Donate to support TurboWarp.
             </a>
+            <br></br><br></br>
+            <a href="https://penguinmod.com/donate">
+                Donate to support Penguinmod.
+            </a>
             <h2>Contributors</h2>
             <p>
-                PenguinMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">our GitHub</a> incase this one is out of date.
+                DISTROT is made by a single user as a joke.
+                A list is below, but you can also check <a href="https://github.com/orgs/DISTROT/people">our GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
@@ -92,11 +96,6 @@ const Credits = () => (
                     height="160"
                 />
             </a>
-            <h2>Domain Provider</h2>
-            <p>
-                <a href="https://penguinmod.com">penguinmod.com</a> (and any subdomains) are currently provided by NotHouse.
-                Currently no link to any known profile of theirs is publicly known.
-            </p>
             <h2>Sound Effects</h2>
             <p>
                 PenguinMod has added some more sounds to the Sound Library.
@@ -105,25 +104,6 @@ const Credits = () => (
                 the Public Domain license.
             </p>
             <h2>Accounts</h2>
-            <p>
-                Login is managed
-                by <a href="https://auth.itinerary.eu.org/">Scratch Auth</a> created
-                by <a href="https://scratch.mit.edu/users/Looky1173/">Looky1173</a>.
-                (thanks for adding us to the user list!)
-                <br />
-                <br />
-                <i>
-                    "Scratch Auth" is not actually affiliated with Scratch,
-                    the Scratch Team, or the Scratch Foundation.
-                </i>
-                <br />
-                <br />
-                <i>
-                    PenguinMod is also not owned or managed by Looky1173, please only comment on his profile
-                    <br />
-                    if the Scratch Auth page tells you that it failed, not if PenguinMod fails to load.
-                </i>
-            </p>
         </section>
         <section>
             <h1>PenguinMod & TurboWarp</h1>
@@ -131,19 +111,19 @@ const Credits = () => (
         <section>
             <h2>Extensions</h2>
             <p><i>
-                If you are an extension developer who wants their extension removed from PenguinMod's extensions list,
-                contact us as soon as you can. We'll get it removed as soon as we are able to.
+                If you are an extension developer who wants their extension removed from DISTROT's extensions list,
+                please make a pull request in our github as soon as you can. I'll get it removed as soon as i am able to.
             </i></p>
             <p>
-                We use some MIT licensed extensions from TurboWarp as they are really useful!
+                I use some MIT licensed extensions from TurboWarp as they are really useful!
                 Check out the full list of TurboWarp extensions <a href="https://extensions.turbowarp.org/">here</a>,
-                but we still need to credit these people!
+                but I still need to credit these people!
                 Check them out below:
             </p>
             <UserList users={UserData.extensionDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                PenguinMod also has a few people who made and submitted extensions too!
+                PenguinMOD also has a few people who made and submitted extensions too!
                 This list may get outdated sometimes, but here they are listed below:
             </p>
             <UserList users={UserData.pmExtensionDevelopers} />
@@ -210,12 +190,9 @@ const Credits = () => (
                 far more than we could hope to list here.
             </p>
             <p>
-                PenguinMod is also (very very slowly) getting translated into other languages, in the future
-                hopefully the same number of languages can be supported. It'll take a while until we get there though.
+                DISTROT is also 50% more slower than penguinmod (very very slowly) getting translated into other languages, because i have no goddamn idea how.
+                hopefully the same number of languages can be supported. It'll take a very long while until i get there though.
             </p>
-            <p>Contributors:</p>
-            <UserList users={UserData.pmTranslators} />
-            <p><i>The list order is randomized on each refresh.</i></p>
         </section>
         <section>
             <p>

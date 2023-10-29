@@ -120,24 +120,16 @@ const addonDevelopers = [
 ].map(fromHardcoded);
 
 const pmDevelopers = [
-    'asmarly',
+    'GabsTheCuriousKid',
     // 'CST1229', // gray area, idrk if they are still a member
-    'FreshPenguin112',
-    'Ianyourgod',
-    'jdev082',
-    'JeremyGamer13',
-    'jwklong',
-    'MaterArc',
-    'RedMan13',
-    'showierdata9978'
 ].map(fromHardcodedGithub);
 
 // todo: should translators be only named or...?
 const pmTranslators = [
-    'kolikiscool'
+    ''
 ].map(fromHardcodedGithub);
 const pmTranslatorsNamed = [
-    'n0name'
+    ''
 ].map(fromHardcodedNamed);
 
 const logoArtists = Promise.all([
