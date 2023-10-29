@@ -47,7 +47,7 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_turnright">
             <value name="DEGREES">
                 <shadow type="math_number">
-                    <field name="NUM">15</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -925,48 +925,48 @@ const operators = function (isInitialSetup) {
         <block type="operator_add">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_subtract">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_multiply">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_divide">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -1034,7 +1034,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_gt">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>⨌⩘</field>
+                    <field name="TEXT">⨌⩘</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
@@ -1058,7 +1058,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_lt">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>⨐⨸</field>
+                    <field name="TEXT">⨐⨸</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
@@ -1070,7 +1070,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_ltorequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>⫷ɐ</field>
+                    <field name="TEXT">⫷ɐ</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
@@ -1082,7 +1082,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_equals">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>↹μ</field>
+                    <field name="TEXT">↹μ</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
@@ -1094,7 +1094,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_notequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>ζΞĄ↭</field>
+                    <field name="TEXT">ζΞĄ↭</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
@@ -1296,19 +1296,19 @@ const operators = function (isInitialSetup) {
         <block type="operator_mod">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_round">
             <value name="NUM">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -1316,7 +1316,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_mathop">
             <value name="NUM">
                 <shadow type="math_number">
-                    <field name="NUM"/>666</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
