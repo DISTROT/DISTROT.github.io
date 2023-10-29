@@ -26,21 +26,21 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_movesteps">
             <value name="STEPS">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_movebacksteps">
             <value name="STEPS">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_moveupdownsteps">
             <value name="STEPS">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -68,31 +68,31 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_gotoxy">
             <value name="X">
                 <shadow id="movex" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="Y">
                 <shadow id="movey" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_changebyxy">
             <value name="DX">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="DY">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_glideto" id="motion_glideto">
             <value name="SECS">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="TO">
@@ -103,17 +103,17 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_glidesecstoxy">
             <value name="SECS">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="X">
                 <shadow id="glidex" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="Y">
                 <shadow id="glidey" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -121,7 +121,7 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_pointindirection">
             <value name="DIRECTION">
                 <shadow type="math_angle">
-                    <field name="NUM">90</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -134,12 +134,12 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_pointtowardsxy">
             <value name="X">
                 <shadow type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="Y">
                 <shadow type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -148,28 +148,28 @@ const motion = function (isInitialSetup, isStage, targetId) {
         <block type="motion_changexby">
             <value name="DX">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_setx">
             <value name="X">
                 <shadow id="setx" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_changeyby">
             <value name="DY">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="motion_sety">
             <value name="Y">
                 <shadow id="sety" type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -206,8 +206,8 @@ const xmlEscape = function (unsafe) {
 };
 
 const looks = function (isInitialSetup, isStage, targetId, costumeName, backdropName) {
-    const hello = translate('LOOKS_HELLO', 'Hello!');
-    const hmm = translate('LOOKS_HMM', 'Hmm...');
+    const hello = translate('LOOKS_HELLO', 'Ddddd!');
+    const hmm = translate('LOOKS_HMM', 'Dddⁿ⅑');
     return `
     <category name="%{BKY_CATEGORY_LOOKS}" id="looks" colour="#9966FF" secondaryColour="#774DCB">
         ${isStage ? '' : `
@@ -219,7 +219,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
             </value>
             <value name="SECS">
                 <shadow type="math_number">
-                    <field name="NUM">2</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -238,7 +238,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
             </value>
             <value name="SECS">
                 <shadow type="math_number">
-                    <field name="NUM">2</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -254,12 +254,12 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
         <block type="looks_setFont">
             <value name="font">
                 <shadow type="text">
-                    <field name="TEXT">Helvetica</field>
+                    <field name="TEXT">Creepster</field>
                 </shadow>
             </value>
             <value name="size">
                 <shadow type="math_number">
-                    <field name="NUM">14</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -273,7 +273,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
             <field name="prop">STROKE_WIDTH</field>
             <value name="color">
                 <shadow type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -341,26 +341,26 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
             <block type="looks_changesizeby">
                 <value name="CHANGE">
                     <shadow type="math_number">
-                        <field name="NUM">10</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
             </block>
             <block type="looks_setsizeto">
                 <value name="SIZE">
                     <shadow type="math_number">
-                        <field name="NUM">100</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
             </block>
             <block type="looks_setStretch">
                 <value name="X">
                     <shadow type="math_number">
-                        <field name="NUM">100</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
                 <value name="Y">
                     <shadow type="math_number">
-                        <field name="NUM">100</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
             </block>
@@ -371,14 +371,14 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
         <block type="looks_changeeffectby">
             <value name="CHANGE">
                 <shadow type="math_number">
-                    <field name="NUM">25</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="looks_seteffectto">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">0</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -410,14 +410,14 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
             <block type="looks_goforwardbackwardlayers">
                 <value name="NUM">
                     <shadow type="math_integer">
-                        <field name="NUM">1</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
             </block>
             <block type="looks_layersSetLayer">
                 <value name="NUM">
                     <shadow type="math_integer">
-                        <field name="NUM">1</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
             </block>
@@ -449,7 +449,7 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block id="${targetId}_sound_play_at_seconds_until_done" type="sound_play_at_seconds_until_done">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">5</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="SOUND_MENU">
@@ -469,7 +469,7 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block id="${targetId}_sound_play_at_seconds" type="sound_play_at_seconds">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">5</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="SOUND_MENU">
@@ -491,7 +491,7 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block id="${targetId}_sound_set_stop_fadeout_to" type="sound_set_stop_fadeout_to">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="SOUND_MENU">
@@ -520,14 +520,14 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block type="sound_changeeffectby">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="sound_seteffectto">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">100</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -537,14 +537,14 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
         <block type="sound_changevolumeby">
             <value name="VOLUME">
                 <shadow type="math_number">
-                    <field name="NUM">-10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="sound_setvolumeto">
             <value name="VOLUME">
                 <shadow type="math_number">
-                    <field name="NUM">100</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -577,7 +577,7 @@ const events = function (isInitialSetup, isStage) {
         <block type="event_whengreaterthan">
             <value name="VALUE">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -605,14 +605,14 @@ const control = function (isInitialSetup, isStage) {
         <block type="control_wait">
             <value name="DURATION">
                 <shadow type="math_positive_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="control_waitsecondsoruntil">
             <value name="DURATION">
                 <shadow type="math_positive_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -620,7 +620,7 @@ const control = function (isInitialSetup, isStage) {
         <block type="control_repeat">
             <value name="TIMES">
                 <shadow type="math_whole_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -632,14 +632,14 @@ const control = function (isInitialSetup, isStage) {
         <block type="control_case_next">
             <value name="CONDITION">
                 <shadow type="text">
-                    <field name="TEXT">ello</field>
+                    <field name="TEXT">⅟₆∂ζ⨫֏௹</field>
                 </shadow>
             </value>
         </block>
         <block type="control_case">
             <value name="CONDITION">
                 <shadow type="text">
-                    <field name="TEXT">ello</field>
+                    <field name="TEXT">৲૱Ⅶ⨘⨃</field>
                 </shadow>
             </value>
         </block>
@@ -652,7 +652,7 @@ const control = function (isInitialSetup, isStage) {
         <block id="for_each" type="control_for_each">
             <value name="VALUE">
                 <shadow type="math_whole_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -660,12 +660,12 @@ const control = function (isInitialSetup, isStage) {
             <value name="boolean"></value>
             <value name="TEXT1">
                 <shadow type="text">
-                    <field name="TEXT">foo</field>
+                    <field name="TEXT">⨊™↱⁵⨮υΨ</field>
                 </shadow>
             </value>
             <value name="TEXT2">
                 <shadow type="text">
-                    <field name="TEXT">bar</field>
+                    <field name="TEXT">ζ₮₪↜∛</field>
                 </shadow>
             </value>
         </block>
@@ -718,7 +718,7 @@ const control = function (isInitialSetup, isStage) {
 };
 
 const sensing = function (isInitialSetup, isStage) {
-    const name = translate('SENSING_ASK_TEXT', 'What\'s your name?');
+    const name = translate('SENSING_ASK_TEXT', 'Ωφ⇲Ļ\'↚ ↺↹⋉⋅ ⁸ↀↈ⊁?');
     return `
     <category name="%{BKY_CATEGORY_SENSING}" id="sensing" colour="#4CBFE6" secondaryColour="#2E8EB8">
         ${isStage ? '' : `
@@ -756,44 +756,44 @@ const sensing = function (isInitialSetup, isStage) {
             <block type="sensing_distanceTo">
                 <value name="x1">
                     <shadow type="text">
-                        <field name="TEXT">10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="y1">
                     <shadow type="text">
-                        <field name="TEXT">-10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="x2">
                     <shadow type="text">
-                        <field name="TEXT">-10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="y2">
                     <shadow type="text">
-                        <field name="TEXT">10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
             </block>
             <block type="sensing_directionTo">
                 <value name="x1">
                     <shadow type="text">
-                        <field name="TEXT">10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="y1">
                     <shadow type="text">
-                        <field name="TEXT">-10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="x2">
                     <shadow type="text">
-                        <field name="TEXT">-10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
                 <value name="y2">
                     <shadow type="text">
-                        <field name="TEXT">10</field>
+                        <field name="TEXT">666</field>
                     </shadow>
                 </value>
             </block>
@@ -818,14 +818,14 @@ const sensing = function (isInitialSetup, isStage) {
         <block type="sensing_thing_is_text">
             <value name="TEXT1">
                 <shadow type="text">
-                    <field name="TEXT">world</field>
+                    <field name="TEXT">⁹Ⅵ⨔⨟⨜</field>
                 </shadow>
             </value>
         </block>
         <block type="sensing_thing_is_number">
             <value name="TEXT1">
                 <shadow type="text">
-                    <field name="TEXT">10</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
@@ -853,7 +853,7 @@ const sensing = function (isInitialSetup, isStage) {
         <block type="sensing_setclipboard">
             <value name="ITEM">
                 <shadow type="text">
-                    <field name="TEXT">Hello!</field>
+                    <field name="TEXT">⨖⪥⪦⩸⪑!</field>
                 </shadow>
             </value>
         </block>
@@ -881,7 +881,7 @@ const sensing = function (isInitialSetup, isStage) {
             </value>
             <value name="VALUE">
                 <shadow type="text">
-                    <field name="TEXT">0</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
@@ -917,69 +917,69 @@ const sensing = function (isInitialSetup, isStage) {
 };
 
 const operators = function (isInitialSetup) {
-    const apple = translate('OPERATORS_JOIN_APPLE', 'apple');
-    const banana = translate('OPERATORS_JOIN_BANANA', 'banana');
-    const letter = translate('OPERATORS_LETTEROF_APPLE', 'a');
+    const apple = translate('OPERATORS_JOIN_APPLE', '⨡⨉⩩⩉⩌');
+    const banana = translate('OPERATORS_JOIN_BANANA', '⨇⪤⪩⪸⪻⪚');
+    const letter = translate('OPERATORS_LETTEROF_APPLE', '⫯');
     return `
     <category name="%{BKY_CATEGORY_OPERATORS}" id="operators" colour="#40BF4A" secondaryColour="#389438">
         <block type="operator_add">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_subtract">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_multiply">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_divide">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_advMath">
             <value name="ONE">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <field name="OPTION">^</field>
             <value name="TWO">
                 <shadow type="math_number">
-                    <field name="NUM">2</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -987,46 +987,46 @@ const operators = function (isInitialSetup) {
         <block type="operator_random">
             <value name="FROM">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="TO">
                 <shadow type="math_number">
-                    <field name="NUM">10</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_constrainnumber">
             <value name="inp">
                 <shadow type="math_number">
-                    <field name="NUM">50</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="min">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="max">
                 <shadow type="math_number">
-                    <field name="NUM">100</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_lerpFunc">
             <value name="ONE">
                 <shadow type="math_number">
-                    <field name="NUM">1</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="TWO">
                 <shadow type="math_number">
-                    <field name="NUM">3</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
             <value name="AMOUNT">
                 <shadow type="math_number">
-                    <field name="NUM">0.5</field>
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -1034,72 +1034,72 @@ const operators = function (isInitialSetup) {
         <block type="operator_gt">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>⨌⩘</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_gtorequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>⨞⨧⨗</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_lt">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>⨐⨸</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_ltorequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>⫷ɐ</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_equals">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>↹μ</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_notequal">
             <value name="OPERAND1">
                 <shadow type="text">
-                    <field name="TEXT"/>
+                    <field name="TEXT"/>ζΞĄ↭</field>
                 </shadow>
             </value>
             <value name="OPERAND2">
                 <shadow type="text">
-                    <field name="TEXT">50</field>
+                    <field name="TEXT">666</field>
                 </shadow>
             </value>
         </block>
@@ -1140,7 +1140,7 @@ const operators = function (isInitialSetup) {
                 </value>
                 <value name="STRING3">
                     <shadow type="text">
-                        <field name="TEXT">pear</field>
+                        <field name="TEXT">↙∻∓∨</field>
                     </shadow>
                 </value>
             </block>
@@ -1148,24 +1148,24 @@ const operators = function (isInitialSetup) {
             <block type="operator_indexOfTextInText">
                 <value name="TEXT1">
                     <shadow type="text">
-                        <field name="TEXT">world</field>
+                        <field name="TEXT">⋠⋑⋘⋛⋃</field>
                     </shadow>
                 </value>
                 <value name="TEXT2">
                     <shadow type="text">
-                        <field name="TEXT">Hello world!</field>
+                        <field name="TEXT">∎∑∵∬∦ ⅙⋰⋓⋥⒔!</field>
                     </shadow>
                 </value>
             </block>
             <block type="operator_lastIndexOfTextInText">
                 <value name="TEXT1">
                     <shadow type="text">
-                        <field name="TEXT">world</field>
+                        <field name="TEXT">⁵⪐↴↦Π</field>
                     </shadow>
                 </value>
                 <value name="TEXT2">
                     <shadow type="text">
-                        <field name="TEXT">Hello world!</field>
+                        <field name="TEXT">κ↻⅔₁₥ ﷼૱؋¤!</field>
                     </shadow>
                 </value>
             </block>
@@ -1173,7 +1173,7 @@ const operators = function (isInitialSetup) {
             <block type="operator_letter_of">
                 <value name="LETTER">
                     <shadow type="math_whole_number">
-                        <field name="NUM">1</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
                 <value name="STRING">
@@ -1185,17 +1185,17 @@ const operators = function (isInitialSetup) {
             <block type="operator_getLettersFromIndexToIndexInText">
                 <value name="INDEX1">
                     <shadow type="math_number">
-                        <field name="NUM">2</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
                 <value name="INDEX2">
                     <shadow type="math_number">
-                        <field name="NUM">3</field>
+                        <field name="NUM">666</field>
                     </shadow>
                 </value>
                 <value name="TEXT">
                     <shadow type="text">
-                        <field name="TEXT">Hello!</field>
+                        <field name="TEXT">↢↪⨔⨶⨜!</field>
                     </shadow>
                 </value>
             </block>
@@ -1222,12 +1222,12 @@ const operators = function (isInitialSetup) {
             <block type="operator_textStartsOrEndsWith" id="operator_textStartsOrEndsWith">
               <value name="TEXT1">
                 <shadow type="text">
-                  <field name="TEXT">abcdef</field>
+                  <field name="TEXT">৻₪₧₽◣</field>
                 </shadow>
               </value>
               <value name="TEXT2">
                 <shadow type="text">
-                  <field name="TEXT">abc</field>
+                  <field name="TEXT">◕η⨢</field>
                 </shadow>
               </value>
             </block>
@@ -1235,51 +1235,51 @@ const operators = function (isInitialSetup) {
             <block type="operator_replaceAll">
                 <value name="text">
                     <shadow type="text">
-                        <field name="TEXT">foo bar</field>
+                        <field name="TEXT">⨉⨕⨪⨅⨙ ⨒⨈⨞</field>
                     </shadow>
                 </value>
                 <value name="term">
                     <shadow type="text">
-                        <field name="TEXT">foo</field>
+                        <field name="TEXT">⨉⨕⨪⨅⨙</field>
                     </shadow>
                 </value>
                 <value name="res">
                     <shadow type="text">
-                        <field name="TEXT">bar</field>
+                        <field name="TEXT">⨒⨈⨞</field>
                     </shadow>
                 </value>
             </block>
             <block type="operator_replaceFirst">
                 <value name="text">
                     <shadow type="text">
-                        <field name="TEXT">bar bar doo</field>
+                        <field name="TEXT">⨒⨈⨞ ⨒⨈⨞ doo</field>
                     </shadow>
                 </value>
                 <value name="term">
                     <shadow type="text">
-                        <field name="TEXT">bar</field>
+                        <field name="TEXT">⨒⨈⨞</field>
                     </shadow>
                 </value>
                 <value name="res">
                     <shadow type="text">
-                        <field name="TEXT">foo</field>
+                        <field name="TEXT">⨉⨕⨪⨅⨙</field>
                     </shadow>
                 </value>
             </block>
             <block type="operator_regexmatch">
                 <value name="text">
                     <shadow type="text">
-                        <field name="TEXT">foo bar</field>
+                        <field name="TEXT">⨉⨕⨪⨅⨙ ⫍⪯Ϡ</field>
                     </shadow>
                 </value>
                 <value name="reg">
                     <shadow type="text">
-                        <field name="TEXT">foo</field>
+                        <field name="TEXT">⨉⨕⨪⨅⨙</field>
                     </shadow>
                 </value>
                 <value name="regrule">
                     <shadow type="text">
-                        <field name="TEXT">g</field>
+                        <field name="TEXT">⨘</field>
                     </shadow>
                 </value>
             </block>
@@ -1287,7 +1287,7 @@ const operators = function (isInitialSetup) {
             <block type="operator_toUpperLowerCase">
                 <value name="TEXT">
                     <shadow type="text">
-                        <field name="TEXT">ello</field>
+                        <field name="TEXT">ὄ‱‽⨍</field>
                     </shadow>
                 </value>
             </block>
@@ -1296,19 +1296,19 @@ const operators = function (isInitialSetup) {
         <block type="operator_mod">
             <value name="NUM1">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
             <value name="NUM2">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_round">
             <value name="NUM">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
@@ -1316,7 +1316,7 @@ const operators = function (isInitialSetup) {
         <block type="operator_mathop">
             <value name="NUM">
                 <shadow type="math_number">
-                    <field name="NUM"/>
+                    <field name="NUM"/>666</field>
                 </shadow>
             </value>
         </block>
@@ -1324,14 +1324,14 @@ const operators = function (isInitialSetup) {
         <block type="operator_stringify">
             <value name="ONE">
                 <shadow type="text">
-                    <field name="TEXT">foo</field>
+                    <field name="TEXT">⨻⨾₿</field>
                 </shadow>
             </value>
         </block>
         <block type="operator_boolify">
             <value name="ONE">
                 <shadow type="text">
-                    <field name="TEXT">true</field>
+                    <field name="TEXT">₧؋Ⅵ↺</field>
                 </shadow>
             </value>
         </block>

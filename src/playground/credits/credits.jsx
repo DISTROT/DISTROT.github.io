@@ -54,11 +54,11 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                PenguinMod Credits
+                DISTROT Credits
             </h1>
         </header>
         <section>
-            <h1>PenguinMod</h1>
+            <h1>DISTROT</h1>
         </section>
         <section>
             <h2>Thank you</h2>
@@ -88,7 +88,7 @@ const Credits = () => (
         </section>
         <section>
             <h2>GitHub Pages</h2>
-            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host PenguinMod.</p>
+            <p>I currently use <a href="https://pages.github.com/">GitHub Pages</a> to host DISTROT.</p>
             <a href="https://pages.github.com/">
                 <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png"
@@ -138,6 +138,17 @@ const Credits = () => (
             </p>
             <UserList users={UserData.addonDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
+        </section>
+        <section>
+            <h2>Penguinmod</h2>
+            <p>
+                Penguinmod is made possible by many volunteers, here is penguinmod's credits <a href="studio.penguinmod.com/credits.html">Penguinmod contributors</a>
+            </p>
+            <p>
+                <a href="https://penguinmod.com/donate">
+                    Donate to support Penguinmod.
+                </a>
+            </p>
         </section>
         <section>
             <h1>TurboWarp</h1>
