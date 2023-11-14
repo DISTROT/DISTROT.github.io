@@ -647,6 +647,136 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Dot Prop',
+        extensionId: 'https://gistcdn.githack.com/Richienb/bd67c0d65a187eea28bd18d0e04c1052/raw/061ef801c8b474c75f830805b59947b81d8d4257/index.min.js',
+        twDeveloper: 'Richienbs',
+        iconURL: defaultExtensionIcon,
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Legacy Extension from version 1.0',
+        featured: true
+    },
+    {
+        name: 'Classic Cloud Multiplayer',
+        extensionId: 'https://emmettdewet14.github.io/Cloud.js',
+        twDeveloper: 'emmettdewet14',
+        iconURL: defaultExtensionIcon,
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Legacy Extension from version 1.0',
+        featured: true
+    },
+    {
+        name: '0tils',
+        extensionId: 'https://survexe1pc.github.io/unsafe-extensions/0znzw/0tils.js',
+        twDeveloper: '0znzw',
+        iconURL: 'https://survexe1pc.github.io/unsafe-extensions/images/0znzw/0tils.png',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Placeholder',
+        featured: true
+    },
+    {
+        name: 'Zip',
+        extensionId: 'https://extensions.turbowarp.org/CST1229/zip.js',
+        twDeveloper: 'CST1229',
+        iconURL: 'https://extensions.turbowarp.org/images/CST1229/zip.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Create and edit .zip format files, including .sb3 files.',
+        featured: true
+    },
+    {
+        name: 'Video',
+        extensionId: 'https://extensions.turbowarp.org/Lily/Video.js',
+        iconURL: 'https://extensions.turbowarp.org/images/Lily/Video.svg',
+        insetIconURL: turbowarpIcon,
+        twDeveloper: 'LillyMakesThings',
+        tags: ['turbowarp'],
+        description: "Play videos from URLs.",
+        featured: true
+    },
+    {
+        name: 'Time',
+        extensionId: 'https://extensions.turbowarp.org/-SIPC-/time.js',
+        tags: ['turbowarp'],
+        iconURL: 'https://extensions.turbowarp.org/images/-SIPC-/time.svg',
+        insetIconURL: turbowarpIcon,
+        description: "Blocks for interacting with unix timestamps and other date strings.",
+        featured: true,
+        extDeveloper: '-SIPC-'
+    },
+    {
+        name: 'RGB Channels',
+        extensionId: 'https://extensions.turbowarp.org/Longboost/color_channels.js',
+        iconURL: 'https://extensions.turbowarp.org/images/Longboost/color_channels.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Only render or stamp certain RGB channels.',
+        featured: true
+    },
+    {
+        name: 'Recording',
+        extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Recording.js',
+        tags: ['penguinmod'],
+        iconURL: 'https://extensions.penguinmod.com/images/SharkPool/Recording.svg',
+        description: 'Record your voice while you run your projects!',
+        featured: true,
+        customInsetColor: '#7B9149',
+        extDeveloper: 'SharkPool',
+        internetConnectionRequired: false
+    },
+    {
+        name: 'Numerical Encoding',
+        extensionId: 'https://extensions.turbowarp.org/cs2627883/numericalencoding.js',
+        iconURL: 'https://extensions.turbowarp.org/images/cs2627883/numericalencoding.svg',
+        insetIconURL: turbowarpIcon,
+        tags: ['turbowarp'],
+        description: 'Encode strings as numbers for cloud variables.',
+        credits: 'cs2627883',
+        featured: true
+    },
+    {
+    name: 'Streamilator',
+    extensionId: 'https://streamilator.github.io/Streamilator/extension.js',
+    twDeveloper: 'mdwalters',
+    credits: 'snail\-ide',
+    iconURL: defaultExtensionIcon,
+    insetIconURL: turbowarpIcon,
+    tags: ['turbowarp'],
+    description: 'A better way to handle audio from urls.',
+    featured: true
+},
+{
+    name: 'Extra Inputs',
+    extensionId: 'https://gabsthecuriouskid.github.io/FirstExtension/extrainputs.js',
+    tags: ['dinosaurmod'],
+    iconURL: 'https://gabsthecuriouskid.github.io/FirstExtension/ExtraInputsThumbnail.png',
+    description: "Extra Inputs that you can use.",
+    featured: true,
+    extDeveloper: 'MrIncredibleMakerZe'
+},
+{
+    name: 'Longman Dictionary',
+    extensionId: 'https://extensions.turbowarp.org/veggiecan/LongmanDictionary.js',
+    tags: ['turbowarp'],
+    iconURL: 'https://extensions.turbowarp.org/images/veggiecan/LongmanDictionary.png',
+    insetIconURL: turbowarpIcon,
+    description: "Get the definitions of words from the Longman Dictionary in your projects.",
+    featured: true,
+    extDeveloper: 'veggiecan0419'
+},
+{
+    name: 'Bitwise',
+    extensionId: 'https://extensions.turbowarp.org/bitwise.js',
+    iconURL: 'https://extensions.turbowarp.org/images/bitwise.svg',
+    insetIconURL: turbowarpIcon,
+    tags: ['turbowarp'],
+    description: 'Blocks that operate on the binary representation of numbers in computers.',
+    extDeveloper: 'TrueFantom',
+    featured: true
+},
+    {
         name: 'Clones+',
         extensionId: 'https://extensions.turbowarp.org/Lily/ClonesPlus.js',
         tags: ['turbowarp', 'categoryexpansion'],
