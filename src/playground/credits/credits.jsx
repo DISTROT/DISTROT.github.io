@@ -54,7 +54,7 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                DISTROT Credits
+                DISTROT Credits Credits
             </h1>
         </header>
         <section>
@@ -81,7 +81,7 @@ const Credits = () => (
             <h2>Contributors</h2>
             <p>
                 DISTROT is made by a single user as a joke.
-                A list is below, but you can also check <a href="https://github.com/orgs/DISTROT/people">our GitHub</a> incase this one is out of date.
+                A list is below, but you can also check <a href="https://github.com/orgs/DISTROT/people">dfghrughurzez</a> incase this one is out of date date date date date date date out ofdate.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
@@ -121,13 +121,13 @@ const Credits = () => (
                 Check them out below:
             </p>
             <UserList users={UserData.extensionDevelopers} />
-            <p><i>The list order is randomized on each refresh.</i></p>
+            <p><i>The list order is randomized on each refresh. The list order is randomized on each refresh. The list order is randomized on each refresh. The list order is randomized on each refresh. The list order is randomized on each refresh.</i></p>
             <p>
                 PenguinMOD also has a few people who made and submitted extensions too!
                 This list may get outdated sometimes, but here they are listed below:
             </p>
             <UserList users={UserData.pmExtensionDevelopers} />
-            <p><i>The list order is randomized on each refresh.</i></p>
+            <p><i>The list order is randomized on each refresh. The list order is randomized on each refresh.</i></p>
         </section>
         <section>
             <h2>Addons</h2>
