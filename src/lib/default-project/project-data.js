@@ -70,7 +70,7 @@ const projectData = translateFunction => {
                     }
                 ],
                 sounds: [],
-                volume: 666,
+                volume: 66666666,
                 visible: true,
                 x: 666,
                 y: 666,

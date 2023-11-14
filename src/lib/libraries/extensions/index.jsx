@@ -153,6 +153,218 @@ const IsLiveTests = urlParams.has('livetests');
 
 const menuItems = [
     {
+        name: 'Legacy Files',
+        extensionId: 'jgFiles',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Basic blocks for files. This has been replaced by the TurboWarp files extension.',
+        featured: true
+    },
+    {
+        name: 'Clone Communication',
+        extensionId: 'jgClones',
+        iconURL: jgCloneManagerExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Mainly sharing data between clones and the main sprite, but also some other small features. This has been replaced by the TurboWarp Clones+ extension.',
+        featured: true
+    },
+    {
+        name: 'Easy Save',
+        extensionId: 'jgEasySave',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Save variables, lists and extra info to a file, then load those things back in.',
+        featured: true
+    },
+    {
+        name: 'Unite',
+        extensionId: 'jwUnite',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Legacy extension that was eventually merged into the default toolbox.',
+        featured: true
+    },
+    {
+        name: 'Debugging',
+        extensionId: 'jgDebugging',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Log information and run commands. Good for debugging packaged projects or just easily changing things.',
+        featured: true
+    },
+    {
+        name: 'Test Extension Loader',
+        href: 'https://studio.penguinmod.site/loadExt.html',
+        extensionId: 'special_testExtensionLibrary',
+        iconURL: defaultExtensionIcon,
+        description: 'Test loading extensions from a library. For developers.',
+        featured: true
+    },
+    {
+        name: 'Editor',
+        href: 'https://studio.penguinmod.com/editor.html',
+        extensionId: 'special_editorExtensionLibrary',
+        iconURL: penguinmodLibraryExtensionIcon,
+        description: 'Opens the editor with this tab as the parent, still with the library opened. For developers.',
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="OOP"
+                description="Name of OOP extension"
+                id="jwStructs.jwStructsExtension.name"
+            />
+        ),
+        extensionId: 'jwStructs',
+        tags: ['penguinmod'],
+        iconURL: jwStructsExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Removed from list. OOP blocks. OOp is a programming paradigm that uses objects and their interactions to design applications and computer programs."
+                description="Description of OOP extension"
+                id="jwStructs.jwStructsExtension.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'PenguinMod Permissions',
+        extensionId: 'JgPermissionBlocks',
+        iconURL: jgPermissionExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Legacy extension, old blocks no longer serve a real purpose. Direct blocks to manage permissions that PenguinMod requires you have to do certain tasks.',
+        featured: true
+    },
+    {
+        name: 'Jeremys Dev Tools',
+        extensionId: 'jgDev',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Test extension to see if things are possible.\nDO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
+        featured: true
+    },
+    {
+        name: '3D',
+        extensionId: 'jg3d',
+        iconURL: jg3dExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#B200FF',
+        insetIconURL: jg3dInsetExtensionIcon,
+        description: 'Use the magic of 3D to spice up your project.',
+        featured: true
+    },
+    {
+        name: '3D Physics',
+        extensionId: 'fr3d',
+        iconURL: fr3dPhysicsExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#D066FE',
+        insetIconURL: fr3dPhysicsInsetExtensionIcon,
+        description: 'Physics for the 3D extension.',
+        featured: true
+    },
+    {
+        name: '3D Virtual Reality',
+        extensionId: 'jg3dVr',
+        iconURL: jg3dVrExtensionIcon,
+        tags: ['penguinmod', 'hardware'],
+        customInsetColor: '#B200FF',
+        insetIconURL: jg3dVrInsetExtensionIcon,
+        description: 'In development. May break compatibility. Allow players to really jump into your world!',
+        featured: true
+    },
+    {
+        name: 'Advanced Text',
+        extensionId: 'jgAdvancedText',
+        eventSubmittor: 'eggo',
+        iconURL: jgAdvancedTextExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'In development. Currently not publicly available.',
+        featured: true
+    },
+    {
+        name: 'Interfaces',
+        extensionId: 'jgInterfaces',
+        iconURL: jgsilvxrcatInterfacesExtensionIcon,
+        credits: 'silvxrcat',
+        tags: ['penguinmod'],
+        description: 'In development.',
+        featured: true
+    },
+    {
+        name: 'Scripts',
+        extensionId: 'jgScripts',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'In development. Create compiled scripts with blocks while the project is running.',
+        featured: true
+    },
+    {
+        name: 'Packager Applications',
+        extensionId: 'jgPackagerApplications',
+        iconURL: jgPackagerApplicationsExtensionIcon,
+        insetIconURL: jgPackagerApplicationsInsetExtensionIcon,
+        twDeveloper: 'CubesterYT',
+        customInsetColor: '#66B8FF',
+        tags: ['penguinmod', 'packager'],
+        description: 'In development. Do extra things in packaged applications that you can\'t do in the website!',
+        featured: true
+    },
+    {
+        name: 'the doo doo extension',
+        extensionId: 'jgDooDoo',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'dr bob eae',
+        featured: true
+    },
+    {
+        name: 'Inline Blocks',
+        extensionId: 'pmInlineBlocks',
+        iconURL: pmInlineBlocksExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'Create quick blocks for simple tasks. Insert them into any circle spot and have them return any value you want.',
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Pathfinding"
+                description="Name of Pathfinding extension"
+                id="jgPathfinding.Pathfinding.name"
+            />
+        ),
+        extensionId: 'jgPathfinding',
+        tags: ['penguinmod'],
+        iconURL: jgPathfindingExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="(Unstable and or laggy; Needs further work) Have sprites navigate around obstacles in your game instead of clipping into them."
+                description="Description of Pathfinding extension"
+                id="jgPathfinding.Pathfinding.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: 'Animation',
+        extensionId: 'jgAnimation',
+        iconURL: jgAnimationExtensionIcon,
+        tags: ['penguinmod'],
+        description: 'In development. Currently not publicly available.',
+        featured: true
+    },
+    {
+        name: 'Virtual Reality',
+        extensionId: 'jgVr',
+        iconURL: jgVrExtensionIcon,
+        tags: ['penguinmod', 'hardware'],
+        description: 'In development.',
+        credits: 'Vadik1',
+        featured: true
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"

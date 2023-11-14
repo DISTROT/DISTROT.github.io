@@ -16,14 +16,33 @@ const translate = (id, english) => {
 const motion = function (isInitialSetup, isStage, targetId) {
     const stageSelected = translate(
         'MOTION_STAGE_SELECTED',
-        'Stage selected: no motion blocks'
+        'FSKSEIGEJWWH ESJEUSHUSDUFUGEGUEEUUU'
     );
     return `
     <category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#4C97FF" secondaryColour="#3373CC">
         ${isStage ? `
         <label text="${stageSelected}"></label>
         ` : `
+        <block type="sensing_fingertapped">
+            <value name="FINGER_OPTION">
+                <shadow id="sensing_fingeroptions" type="sensing_fingeroptions"/>
+            </value>
+        </block>
         <block type="motion_movesteps">
+            <value name="STEPS">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_movebacksteps">
+            <value name="STEPS">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_movebacksteps">
             <value name="STEPS">
                 <shadow type="math_number">
                     <field name="NUM">666</field>
@@ -59,6 +78,60 @@ const motion = function (isInitialSetup, isStage, targetId) {
             </value>
         </block>
         ${blockSeparator}
+        <block type="motion_goto">
+            <value name="TO">
+                <shadow type="motion_goto_menu">
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_gotoxy">
+            <value name="X">
+                <shadow id="movex" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow id="movey" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_goto">
+            <value name="TO">
+                <shadow type="motion_goto_menu">
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_gotoxy">
+            <value name="X">
+                <shadow id="movex" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow id="movey" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_goto">
+            <value name="TO">
+                <shadow type="motion_goto_menu">
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_gotoxy">
+            <value name="X">
+                <shadow id="movex" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow id="movey" type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
         <block type="motion_goto">
             <value name="TO">
                 <shadow type="motion_goto_menu">
@@ -143,6 +216,19 @@ const motion = function (isInitialSetup, isStage, targetId) {
                 </shadow>
             </value>
         </block>
+        <block type="sensing_mousedown"/>
+        <block type="sensing_mouseclicked"/>
+        <block type="sensing_mousex"/>
+        <block type="sensing_mousey"/>
+        ${blockSeparator}
+        <block type="sensing_setclipboard">
+            <value name="ITEM">
+                <shadow type="text">
+                    <field name="TEXT">⨖⪥⪦⩸⪑!</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="sensing_getclipboard"/>
         <block type="motion_turnaround"/>
         ${blockSeparator}
         <block type="motion_changexby">
@@ -316,6 +402,19 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     </shadow>
                 </value>
             </block>
+            <block type="sensing_mousedown"/>
+        <block type="sensing_mouseclicked"/>
+        <block type="sensing_mousex"/>
+        <block type="sensing_mousey"/>
+        ${blockSeparator}
+        <block type="sensing_setclipboard">
+            <value name="ITEM">
+                <shadow type="text">
+                    <field name="TEXT">⨖⪥⪦⩸⪑!</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="sensing_getclipboard"/>
             <block type="looks_nextcostume"/>
             <block type="looks_previouscostume"/>
             <block type="looks_switchbackdropto">
@@ -405,6 +504,9 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     <shadow type="looks_getOtherSpriteVisible_menu"/>
                 </value>
             </block>
+            <block type="event_whenkeypressed"></block>
+        <block type="event_whenkeyhit"></block>
+        <block type="event_whenmousescrolled"></block>
             ${blockSeparator}
             <block type="looks_gotofrontback"/>
             <block type="looks_goforwardbackwardlayers">
@@ -455,6 +557,18 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
             <value name="SOUND_MENU">
                 <shadow type="sound_sounds_menu">
                     <field name="SOUND_MENU">${soundName}</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="operator_mod">
+            <value name="NUM1">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="NUM2">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -524,6 +638,12 @@ const sound = function (isInitialSetup, isStage, targetId, soundName) {
                 </shadow>
             </value>
         </block>
+        <block type="looks_setColor">
+            <field name="prop">BUBBLE_STROKE</field>
+            <value name="color">
+                <shadow type="colour_picker"></shadow>
+            </value>
+        </block>
         <block type="sound_seteffectto">
             <value name="VALUE">
                 <shadow type="math_number">
@@ -558,6 +678,20 @@ const events = function (isInitialSetup, isStage) {
     return `
     <category name="%{BKY_CATEGORY_EVENTS}" id="events" colour="#FFD500" secondaryColour="#CC9900">
         <block type="event_whenflagclicked"/>
+        <block type="sound_changeeffectby">
+            <value name="VALUE">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="sound_changeeffectby">
+            <value name="VALUE">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
         <block type="event_whenstopclicked"/>
         <block type="event_always"></block>
         <block type="event_whenanything">
@@ -740,6 +874,13 @@ const sensing = function (isInitialSetup, isStage) {
                     <shadow type="colour_picker"/>
                 </value>
             </block>
+            <block type="sound_changeeffectby">
+            <value name="VALUE">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
             <block type="sensing_coloristouchingcolor">
                 <value name="COLOR">
                     <shadow type="colour_picker"/>
@@ -845,6 +986,13 @@ const sensing = function (isInitialSetup, isStage) {
                 <shadow type="sensing_scrolldirections"/>
             </value>
         </block>
+        <block type="control_waitsecondsoruntil">
+            <value name="DURATION">
+                <shadow type="math_positive_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
         <block type="sensing_mousedown"/>
         <block type="sensing_mouseclicked"/>
         <block type="sensing_mousex"/>
@@ -934,6 +1082,9 @@ const operators = function (isInitialSetup) {
                 </shadow>
             </value>
         </block>
+        <block type="event_whenkeypressed"></block>
+        <block type="event_whenkeyhit"></block>
+        <block type="event_whenmousescrolled"></block>
         <block type="operator_subtract">
             <value name="NUM1">
                 <shadow type="math_number">
@@ -996,6 +1147,13 @@ const operators = function (isInitialSetup) {
                 </shadow>
             </value>
         </block>
+        <block type="control_waitsecondsoruntil">
+            <value name="DURATION">
+                <shadow type="math_positive_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
         <block type="operator_constrainnumber">
             <value name="inp">
                 <shadow type="math_number">
@@ -1040,6 +1198,18 @@ const operators = function (isInitialSetup) {
             <value name="OPERAND2">
                 <shadow type="text">
                     <field name="TEXT">666</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="operator_mod">
+            <value name="NUM1">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="NUM2">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
                 </shadow>
             </value>
         </block>
@@ -1291,6 +1461,18 @@ const operators = function (isInitialSetup) {
                     </shadow>
                 </value>
             </block>
+            <block type="operator_mod">
+            <value name="NUM1">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+            <value name="NUM2">
+                <shadow type="math_number">
+                    <field name="NUM">666</field>
+                </shadow>
+            </value>
+        </block>
         `}
         ${blockSeparator}
         <block type="operator_mod">
@@ -1328,6 +1510,9 @@ const operators = function (isInitialSetup) {
                 </shadow>
             </value>
         </block>
+        <block type="event_whenkeypressed"></block>
+        <block type="event_whenkeyhit"></block>
+        <block type="event_whenmousescrolled"></block>
         <block type="operator_boolify">
             <value name="ONE">
                 <shadow type="text">
